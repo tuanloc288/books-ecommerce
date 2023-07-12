@@ -1,20 +1,24 @@
-# Fullstack Books e-commerce with ReactJS for frontend and ExpressJS, NodeJS for backend , 
+# Fullstack Books e-commerce with ReactJS for frontend and ExpressJS, NodeJS for backend 
 
 ![Home page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689179294/homePage_td23gm.png)
 ![Books page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689179288/booksPage_w5b0tr.png)
 ![Cart page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689179288/cartPage_ck6eu2.png)
-![Management page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689179696/accountMgmt_s7kiik.png)
+![Management page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689180307/statisticPage_rdflfm.png)
 ![Statistic page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689179423/statistic_wotv1v.png)
 ![Email verification](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689179287/emailVerification_wdjkbd.png)
 
 This project is a fullstack e-commerce website for selling books as a local seller, but focusing more on backend
+
 Build with ReactJS, NodeJS, ExpressJS, MongoDB
+
 Using libraries: 
+
 + Frontend: 
     - Redux, redux toolkit.
     - Axios.
     - ChartJS.
     - React-paginate, react-toastify, react-router-dom.
+    
 + Backend: 
     - Bcrypt, JWT.
     - Nodemailer.
