@@ -1,0 +1,26 @@
+
+.product-mgmt-row {
+    position: relative;
+}
+
+.product-mgmt-statistic {
+    position: absolute;
+    visibility: hidden;
+    background-color: var(--main-color);
+    border: 1px solid var(--sub-color) !important; 
+    width: 400px;
+    height: 145px;
+    z-index: 2;
+    left: 24.6%;
+    display: flex;
+}
+
+.product-mgmt-row:hover .product-mgmt-statistic {
+    visibility: visible;
+}
+
+@media screen and (max-width: 800px) {
+    .product-mgmt-statistic {
+        left: 0;
+    }
+}

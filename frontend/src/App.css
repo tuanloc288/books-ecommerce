@@ -1,0 +1,141 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+
+:root {
+    --main-color: white;
+    --sub-color: black;
+    --letter-color: #FAAB9F;
+    --header-font-size: 20px;
+    --special-font: Cinzel Decorative;
+    --header-font: "Great Vibes", cursive;
+    --header-font-no-cursive: "Great Vibes";
+}
+
+ul {
+    list-style-type: none;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: var(--letter-color);
+}
+
+.effect {
+    content: " ";
+    position: absolute;
+    width: 40px;
+    display: none;
+}
+
+.effect-top {
+    border-top: 2px solid rgb(0, 0, 0, 0.4);
+    transform: rotateZ(15deg);
+    top: 3.5px;
+    right: -38px;
+    z-index: 5;
+}
+
+.effect-bottom {
+    border-bottom: 2px solid rgb(0, 0, 0, 0.4);
+    transform: rotateZ(-21deg);
+    top: 291px;
+    right: -37px;
+    z-index: 5;
+}
+
+.page {
+    content: " ";
+    position: absolute;
+    border-right: 1px solid rgb(0, 0, 0, 0.4);
+    border-radius: 0%;
+    width: 10px;
+    display: none;
+}
+
+.page2 {
+    right: -12px;
+    top: 4px;
+    height: 95%;
+}
+
+.page3 {
+    right: -18px;
+    top: 6px;
+    height: 93%;
+}
+
+.page4 {
+    right: -24px;
+    top: 7px;
+    height: 92%;
+}
+
+.page5 {
+    right: -30px;
+    top: 9px;
+    height: 90.5%;
+    border-right: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+.page6 {
+    right: -36px;
+    top: 10px;
+    height: 90%;
+    border-right: 3px solid rgb(0, 0, 0, 0.5);
+}
+
+.loader {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    animation: loaderOpacity 1s ease-in-out 1;
+}
+
+@keyframes loaderOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.loader:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid var(--letter-color);
+    border-color: var(--letter-color) transparent var(--letter-color) transparent;
+    animation: loader 2s linear infinite;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+textarea {
+    resize: none;
+}

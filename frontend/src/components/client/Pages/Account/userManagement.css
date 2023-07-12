@@ -1,0 +1,100 @@
+/* Account management modal */
+
+#account-management-modal-wrapper {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 970px;
+    background-color: rgb(110,110,110,0.5);
+    display: none;
+}
+
+#account-management-modal-container {
+    width: 500px;
+    height: fit-content;
+    min-height: 350px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px var(--sub-color);
+    background-color: var(--main-color);
+    padding: 20px;
+    display: none;
+    overflow: hidden;
+}
+#account-management-modal-wrapper.showModal  {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#account-management-modal-container.showModal {
+    display: block;
+}
+
+#account-management-modal-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: calc(var(--header-font-size) + 10px);
+    color: var(--letter-color);
+}
+
+#account-management-modal-close:hover {
+    cursor: pointer;
+    scale: 1.05;
+    color: rgb(245, 139, 122);
+}
+
+#account-management-modal-content {
+    width: 100%;
+}
+
+.account-management-modal-title {
+    font-size: var(--header-font-size);
+    font-family: var(--header-font);
+    margin: 18px 0;
+    width: 100%;
+}
+
+.account-management-modal-input {
+    width: 100%;
+    padding: 10px 10px;
+    font-size: calc(var(--header-font-size) - 2px);
+    border: none;
+    border-bottom: 1px solid var(--letter-color);
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.account-management-modal-input:focus {
+    outline-color: var(--letter-color);
+}
+
+#account-management-modal-btn-section {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.account-management-modal-update-btn {
+    border: none;
+    background-color: var(--letter-color);
+    color: var(--main-color);
+    font-size: calc(var(--header-font-size) - 4px);
+    font-family: var(--header-font);
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    /* position: absolute;
+    bottom: 15px; */
+    transition: 0.2s ease-in-out;
+}
+
+.account-management-modal-update-btn:hover {
+    cursor: pointer;
+    scale: 1.05;
+    background-color: rgb(245, 139, 122);
+}
+
+/* Finished account management modal */

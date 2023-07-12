@@ -1,0 +1,153 @@
+#accountMgmt-pri-section {
+    display: flex;
+    height: 110px;
+    width: 100%;
+}
+
+#accountMgmt-pri-section-left {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 10px;
+}
+
+#accountMgmt-pri-section-left-span {
+    font-size: calc(var(--header-font-size));
+    text-align: center;
+}
+
+#accountMgmt-pri-section-left-select {
+    width: fit-content;
+    font-size: calc(var(--header-font-size) - 3px);
+    padding: 5px;    
+}
+
+#accountMgmt-pri-section-right {
+    height: 100%;
+    max-height: 100%;
+    overflow-y: scroll;
+    width: 78%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 0 5px;
+    justify-content: space-around;
+}
+
+.accountMgmt-pri-section-checkbox {
+    width: 20px;
+    height: 20px;
+    accent-color: var(--letter-color);
+}
+
+.accountMgmt-pri-section-checkbox:hover {
+    cursor: pointer;
+}
+
+#account-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 15px 0;
+}
+
+#account-form-left {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    gap: 10px;
+}
+
+#account-form-right {
+    align-self: flex-start;
+    width: 70%;
+    height: 350px;
+    max-height: 350px;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+    padding: 0 5px;
+}
+
+.account-form-label {
+    font-size: var(--header-font-size);
+}
+
+.account-form-input {
+    font-size: calc(var(--header-font-size) - 3px);
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.account-form-input:focus {
+    outline: none;
+}
+
+#account-form-btn-section {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 15px;
+}
+
+#account-search-select {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: calc(var(--header-font-size) - 3px);
+}
+
+@media screen and (max-width: 1400px) {
+    #accountMgmt-pri-section-right {
+        grid-template-columns: auto auto auto auto;
+    }
+
+    #account-form-right {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #accountMgmt-pri-section-right {
+        grid-template-columns: auto auto auto;
+    }
+
+    #account-form-right {
+        grid-template-columns: auto auto auto;
+    }
+
+    #account-form-btn-section {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #accountMgmt-pri-section-right {
+        grid-template-columns: auto auto;
+    }
+
+    #account-form-right {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #accountMgmt-pri-section-right {
+        grid-template-columns: auto;
+    }
+
+    #account-form-right {
+        justify-content: flex-end;
+        gap: 0 10px;
+    }
+}

@@ -1,0 +1,68 @@
+#confirm-dialog-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(110,110,110,0.5);
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 15;
+}
+
+#confirm-dialog-container {
+    width: 500px;
+    height: fit-content;
+    border-radius: 15px;
+    box-shadow: 0 0 15px var(--sub-color);
+    background-color: var(--main-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fromTop .5s ease-in-out 1;
+}
+
+#confirm-dialog-title {
+    text-align: center;
+    width: 100%;
+    font-size: calc(var(--header-font-size));
+    font-family: var(--header-font);
+    padding: 10px 5px
+}
+
+#confirm-dialog-btn-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.confirm-dialog-btn {
+    border: none;
+    color: var(--main-color);
+    padding: 15px 30px;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+#confirm-dialog-cancel {
+    background-color: var(--letter-color);
+    color: var(--main-color);
+}
+
+#confirm-dialog-cancel:hover {
+    background-color: rgb(245, 139, 122);
+}
+
+#confirm-dialog-accept {
+    background-color: rgb(24, 148, 24);
+}
+
+#confirm-dialog-accept:hover {
+    background-color: green;
+}
