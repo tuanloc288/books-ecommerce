@@ -1,11 +1,11 @@
 # Fullstack Books e-commerce with ReactJS for frontend and ExpressJS, NodeJS for backend 
 
-![Home page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689179294/homePage_td23gm.png)
-![Books page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689179288/booksPage_w5b0tr.png)
-![Cart page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689179288/cartPage_ck6eu2.png)
-![Management page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689180307/statisticPage_rdflfm.png)
-![Statistic page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689179423/statistic_wotv1v.png)
-![Email verification](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689179287/emailVerification_wdjkbd.png)
+![Home page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689412094/homePage_i4et7t.png)
+![Books page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689412096/productPage_xmged6.png)
+![Cart page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689412094/cartPage_fun738.png)
+![Management page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689412094/managementPage_ifdwto.png)
+![Statistic page](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689412095/statisticPage_b0n7op.png)
+![Email verification](https://res.cloudinary.com/dbiliw2ja/image/upload/v1689412094/emailVerification_c9x6eg.png)
 
 This project is a fullstack e-commerce website for selling books as a local seller, but focusing more on backend
 
